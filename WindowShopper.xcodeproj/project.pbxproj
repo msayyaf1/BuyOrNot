@@ -56,15 +56,23 @@
 		82F7EA432460693700EB6DE8 /* WindowShopper */ = {
 			isa = PBXGroup;
 			children = (
+				82F7EA5824606A4F00EB6DE8 /* Controller */,
 				82F7EA442460693700EB6DE8 /* AppDelegate.swift */,
 				82F7EA462460693700EB6DE8 /* SceneDelegate.swift */,
-				82F7EA482460693700EB6DE8 /* ViewController.swift */,
 				82F7EA4A2460693700EB6DE8 /* Main.storyboard */,
 				82F7EA4D2460693800EB6DE8 /* Assets.xcassets */,
 				82F7EA4F2460693800EB6DE8 /* LaunchScreen.storyboard */,
 				82F7EA522460693800EB6DE8 /* Info.plist */,
 			);
 			path = WindowShopper;
+			sourceTree = "<group>";
+		};
+		82F7EA5824606A4F00EB6DE8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				82F7EA482460693700EB6DE8 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
