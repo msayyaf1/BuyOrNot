@@ -18,8 +18,7 @@ class MainVC: UIViewController {
     
     @IBOutlet weak var hoursLbl: UILabel!
     
-    @IBAction func clearCalculatorPressed(_ sender: Any) {
-    }
+  
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -38,12 +37,31 @@ class MainVC: UIViewController {
         wageTxt.inputAccessoryView = calcBtn
         priceTxt.inputAccessoryView = calcBtn
         
+        resultLbl.isHidden = true
+        hoursLbl.isHidden = true
+        
     }
     
     @objc func calculate(){
-        print("This Works!")
+        // validation to ensure they're not nil
+        if let wageTxt = wageTxt.text, let priceTxt = priceTxt.text {
+           //validation to ensure they're doubles
+            if let wage = Double(wageTxt), let price = Double(priceTxt){
+                view.endEditing(true) //to dismiss the keyboard
+                resultLbl.isHidden = false
+                hoursLbl.isHidden = false
+                resultLbl.text = "\(Wage.getHours(forWage: wage, andPrice: price))"
+            }
+        }
     }
-
+    
+    @IBAction func clearCalculatorPressed(_ sender: Any) {
+        //When clear button is pressed we need ot clear the text fields
+        resultLbl.isHidden = true
+        hoursLbl.isHidden = true
+        wageTxt.text = ""
+        priceTxt.text = ""
+      }
 
 }
 

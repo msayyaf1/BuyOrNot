@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		821DAFE82461B01400F22172 /* Wage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821DAFE72461B01400F22172 /* Wage.swift */; };
 		821DAFF02461B60D00F22172 /* WindowShopperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821DAFEF2461B60D00F22172 /* WindowShopperTests.swift */; };
+		821DAFF72461CED900F22172 /* Wage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821DAFE72461B01400F22172 /* Wage.swift */; };
 		8277A6CA24618B3400C20B16 /* CurrencyTxtField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8277A6C924618B3400C20B16 /* CurrencyTxtField.swift */; };
 		82F7EA452460693700EB6DE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F7EA442460693700EB6DE8 /* AppDelegate.swift */; };
 		82F7EA472460693700EB6DE8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F7EA462460693700EB6DE8 /* SceneDelegate.swift */; };
@@ -231,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				821DAFF02461B60D00F22172 /* WindowShopperTests.swift in Sources */,
+				821DAFF72461CED900F22172 /* Wage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
