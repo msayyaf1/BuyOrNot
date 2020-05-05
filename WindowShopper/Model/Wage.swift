@@ -13,5 +13,6 @@ class Wage {
         //forWage is parameter name , wage is the variable name
         return Int(ceil(price/wage))
     }
+    // since gethours is a class function we dont need to create a copy or object of Wage class to use this function
     
 }
