@@ -14,6 +14,12 @@ class MainVC: UIViewController {
     
     @IBOutlet weak var priceTxt: CurrencyTxtField!
     
+    @IBOutlet weak var resultLbl: UILabel!
+    
+    @IBOutlet weak var hoursLbl: UILabel!
+    
+    @IBAction func clearCalculatorPressed(_ sender: Any) {
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
