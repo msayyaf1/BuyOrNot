@@ -42,7 +42,10 @@
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="32" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lmf-72-98K">
-                                <rect key="frame" x="173.5" y="444" width="67" height="69"/>
+                                <rect key="frame" x="167" y="444" width="80" height="69"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="80" id="KQ2-vQ-MEt"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="57"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -90,7 +93,6 @@
                             <constraint firstItem="eaL-Vk-Suc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gRX-eZ-MIH"/>
                             <constraint firstItem="zUY-l5-kF1" firstAttribute="height" secondItem="H4i-tx-rYW" secondAttribute="height" id="hAH-q7-R8Y"/>
                             <constraint firstItem="H4i-tx-rYW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="i67-tb-2pL"/>
-                            <constraint firstItem="lmf-72-98K" firstAttribute="width" secondItem="zUY-l5-kF1" secondAttribute="width" multiplier="0.179144" id="pyx-Uz-jPZ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="BuH-xU-n1X" secondAttribute="bottom" constant="20" id="qfr-nJ-EqD"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
