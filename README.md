@@ -2,4 +2,6 @@
 
 Screenshots:-
 
-/Users/msayyaf/Desktop/Simulator Screen Shot - iPhone 11 Pro Max - 2020-05-06 at 18.13.29.png
+<img src="Images/1.png" width="250"> <img src="Images/2.png" width="250"> <img src="Images/3.png" width="250">
+
+
